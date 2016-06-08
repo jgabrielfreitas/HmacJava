@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/hmacjava.iml" filepath="$PROJECT_DIR$/.idea/modules/library/hmacjava.iml" group="hmacjava" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/hmacjava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/hmacjava_main.iml" group="hmacjava" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/hmacjava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/library/hmacjava_test.iml" group="hmacjava" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main_test/test_hmac.iml" filepath="$PROJECT_DIR$/.idea/modules/main_test/test_hmac.iml" group="test_hmac" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main_test/test_hmac_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main_test/test_hmac_main.iml" group="test_hmac" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main_test/test_hmac_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main_test/test_hmac_test.iml" group="test_hmac" />
     </modules>

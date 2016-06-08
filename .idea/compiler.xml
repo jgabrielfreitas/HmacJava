@@ -21,8 +21,8 @@
     <bytecodeTargetLevel>
       <module name="hmac_main" target="1.5" />
       <module name="hmac_test" target="1.5" />
-      <module name="hmacjava_main" target="1.5" />
-      <module name="hmacjava_test" target="1.5" />
+      <module name="hmacjava_main" target="1.7" />
+      <module name="hmacjava_test" target="1.7" />
       <module name="test_hmac_main" target="1.5" />
       <module name="test_hmac_test" target="1.5" />
     </bytecodeTargetLevel>
