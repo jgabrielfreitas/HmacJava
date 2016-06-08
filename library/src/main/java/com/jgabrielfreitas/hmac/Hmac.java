@@ -8,11 +8,11 @@ import javax.crypto.spec.SecretKeySpec;
 /**
  * Created by JGabrielFreitas on 08/06/16.
  */
-public class HmacCryptography {
+public class Hmac {
 
     private ShaHash CRYPTOGRAPHY_METHOD;
 
-    public HmacCryptography() {
+    public Hmac() {
         this.CRYPTOGRAPHY_METHOD = ShaHash.HmacSHA512; // by default is Sha512
     }
 
