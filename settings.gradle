@@ -1,0 +1,6 @@
+rootProject.name = 'hmac'
+include 'library'
+findProject(':library')?.name = 'hmacjava'
+include 'main_test'
+findProject(':main_test')?.name = 'test_hmac'
+
