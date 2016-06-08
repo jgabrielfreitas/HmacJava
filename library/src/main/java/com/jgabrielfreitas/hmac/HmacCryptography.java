@@ -12,6 +12,10 @@ public class HmacCryptography {
 
     private ShaHash CRYPTOGRAPHY_METHOD;
 
+    public HmacCryptography() {
+        this.CRYPTOGRAPHY_METHOD = ShaHash.HmacSHA512; // by default is Sha512
+    }
+
     public void setCryptographyMethod(ShaHash cryptographyMethod) {
         this.CRYPTOGRAPHY_METHOD = cryptographyMethod;
     }
@@ -19,7 +23,7 @@ public class HmacCryptography {
     public String cryptographyMessage(String key, String message) throws Exception {
 
         Mac mac;
-        String result = "";
+        String result;
         byte[] bytesKey = key.getBytes();
         final SecretKeySpec secretKey = new SecretKeySpec(bytesKey, CRYPTOGRAPHY_METHOD.toString());
         mac = Mac.getInstance(CRYPTOGRAPHY_METHOD.toString());
