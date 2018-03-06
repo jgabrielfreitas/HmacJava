@@ -41,7 +41,7 @@ String encryptedMessage = cryptography.cryptographyMessage(KEY, MESSAGE); // 637
 > Default cryptography method is SHA512
 
 
-###License
+### License
 ```
 The MIT License (MIT)
 
